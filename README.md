@@ -62,9 +62,10 @@ docker compose logs napcat
 
 ### 停止服务
 
-你可以使用以下命令停止 NapCat 服务：
+你可以使用以下命令停止所有服务：
 
 ```bash
+cd /path/to/your/project
 docker compose down
 ```
 
